@@ -178,10 +178,11 @@ const BankReceiptQueryTool = () => {
               onChange={(e) => setLanguage(e.target.value)}
               className="bg-white/20 text-white rounded px-2 py-1 text-sm focus:outline-none"
             >
-              <span className="text-sm" onClick={() => setLanguage("zh")}>中文</option>
-              <span className="text-sm" onClick={() => setLanguage("en")}>English</option>
-              <span className="text-sm" onClick={() => setLanguage("am")}>አማርኛ</option>
-            </div className="flex items-center space-x-2">
+              <button className="text-sm" onClick={() => setLanguage("zh")}>中文</button>
+              <button className="text-sm" onClick={() => setLanguage("en")}>English</button>
+              <button className="text-sm" onClick={() => setLanguage("am")}>አማርኛ</button>
+
+            </div>
           </div>
         </div>
 
