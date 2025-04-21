@@ -9,7 +9,7 @@ const BankReceiptQueryTool = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [language, setLanguage] = useState('zh');
   const [referencesText, setReferencesText] = useState('');
-  const [downloadLinks, setDownloadLinks] = useState<string[]>([]);
+  const [downloadLinks, setDownloadLinks] = useState([]);
   const [batchBankNumber, setBatchBankNumber] = useState('');
   const [showBatchForm, setShowBatchForm] = useState(false);
   const [showBatchOptions, setShowBatchOptions] = useState(false);
